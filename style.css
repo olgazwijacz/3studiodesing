@@ -1,0 +1,124 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html {
+    background-image: url("images/tlo.png");
+    background-repeat: no-repeat;
+    background-position: center 51px;
+}
+body {
+    display: grid;
+    grid-template-rows: 55px 940px 75px;
+    grid-template-columns: 1fr 1450px 1fr;
+
+}
+nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #191a19;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 125px;
+    font-family: "Nunito" , sans-serif;
+    font-size: 17px;
+    padding-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #dfa64c;
+}
+nav ul li a:hover {
+    color: #aa3e3e;
+}
+header{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+header img {
+    margin-top:-40px;
+    margin-left: 125px;
+    opacity: 0.6;
+    display: block;
+    
+}
+h1 {
+    font-family: "Calibri" , sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #dfa64c;
+    margin-left: 300px;
+    margin-top: 80px;
+    border-left: 7px solid #6e1f1f;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    float: left;
+    display: block;
+    width: 200px;
+    
+}
+h1 span {
+    text-transform: uppercase;
+  
+}
+header h2 {
+  display: block;
+  width: 248px;
+  height: 248px;
+  font-family: "Raleway" , sans-serif;
+  color:  #aa3e3e;
+  font-size: 30px;
+  border: 6px solid  #aa3e3e;
+  text-align: center;
+  padding-top: 55px;
+  margin-left: 430px;
+  float: left;
+ }
+
+ footer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #191a19;
+    font-family: "Raleway" , sans-serif;
+    font-size: 12px;
+    color: #dfa64c;
+ }
+
+ .prawo {
+     float: right;
+     display: block;
+     margin-right: 60px;
+     margin-top: 26px;
+
+ }
+ .lewo {
+     float: left;
+     display: block;
+     margin-left: 40px;
+     margin-top: 28px;
+ }
+.prawo, .lewo {
+    list-style: none;
+}
+footer li {display: inline-block;
+    padding-left:20px;
+}
+footer h3 {
+    display: block;
+    float: right;
+    margin-top: 34px;
+    height: 20px;
+    font-size: 12px;
+}
